@@ -1,0 +1,20 @@
+esprit_troc_event:
+    resource: "@EspritTrocBundle/Controller/EventController.php"
+    type:     annotation
+
+esprit_troc:
+    resource: "@EspritTrocBundle/Resources/config/routing.yml"
+    prefix:   /esprit
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+api_evenements:
+    resource: "@EspritTrocBundle/Controller/EventApiController.php"
+    type:     annotation
+    prefix:   /api/event
+    methods: [GET,PUT,POST,DELETE]

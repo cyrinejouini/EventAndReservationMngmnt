@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.net.URL?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interface_ev.AjoutevFXMLController">
+    <stylesheets>
+        <URL value="@stylesheet.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="647.0" fitWidth="797.0" layoutY="-2.0" opacity="0.72" pickOnBounds="true">
+         <image>
+            <Image url="@../deeppurple/images/arriere_plan.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#f5f4f4" layoutX="276.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ajouter un Evenement" wrappingWidth="204.99999649822712">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <JFXTextField fx:id="tf_nom" focusColor="#170101" layoutX="94.0" layoutY="161.0" onKeyReleased="#CheckNom" prefHeight="25.0" prefWidth="161.0" promptText="Nom..." unFocusColor="#170101">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="tf_description" focusColor="#170101" layoutX="94.0" layoutY="205.0" onKeyReleased="#CheckPrenom" prefHeight="25.0" prefWidth="161.0" promptText="Nombre de place" unFocusColor="#170101">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="tf_nbplace" focusColor="#170101" layoutX="94.0" layoutY="248.0" onKeyReleased="#CheckUser" prefHeight="25.0" prefWidth="161.0" promptText="description" unFocusColor="#170101">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="btn_image" layoutX="470.0" layoutY="402.0" onAction="#onSelectImage" prefHeight="25.0" prefWidth="126.0" ripplerFill="#830707" text="Inserer l' image" textFill="#170101" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect>
+      </JFXButton>
+      <JFXButton fx:id="btn_valider" layoutX="276.0" layoutY="434.0" onAction="#createvntAc" prefHeight="29.0" prefWidth="187.0" ripplerFill="#de0a0a" style="-fx-background-color: #9fa8da;" text="Ajouter" textFill="#4a0303">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="ver_nom" layoutX="263.0" layoutY="159.0" onKeyReleased="#CheckNom" prefHeight="29.0" prefWidth="187.0" text="Label" textFill="#b92525" visible="false">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="ver_prenom" layoutX="263.0" layoutY="203.0" prefHeight="29.0" prefWidth="187.0" text="Label" visible="false">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="ver_tel" layoutX="267.0" layoutY="292.0" prefHeight="29.0" prefWidth="178.0" text="Label" visible="false">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="ver_mot" layoutX="267.0" layoutY="330.0" prefHeight="29.0" prefWidth="205.0" text="Label" visible="false">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="ver_rep" layoutX="267.0" layoutY="375.0" prefHeight="29.0" prefWidth="187.0" text="Label" visible="false">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="erreurMail" layoutX="609.0" layoutY="165.0" prefHeight="39.0" prefWidth="83.0" text="Mail non valide" textFill="#c2281d" visible="false">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="ver_user" layoutX="263.0" layoutY="246.0" prefHeight="29.0" prefWidth="187.0" text="Label" visible="false">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="path" layoutX="529.0" layoutY="324.0" text="Label" visible="false">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="img_view" fitHeight="113.0" fitWidth="117.0" layoutX="476.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../deeppurple/images/avatar.png" />
+         </image>
+      </ImageView>
+      <DatePicker fx:id="dev" layoutX="88.0" layoutY="294.0" promptText="date prévu" />
+   </children>
+</AnchorPane>

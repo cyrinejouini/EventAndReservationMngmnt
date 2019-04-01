@@ -1,0 +1,36 @@
+reservation_annulone:
+    path:     /annulone/{id}
+    defaults: { _controller: EspritTrocBundle:Reservation:annulone }
+reservation_annulall:
+    path:     /annulAll/{id}
+    defaults: { _controller: EspritTrocBundle:Reservation:annulAll }
+reservation_indexuser:
+    path:     /allreservationuser
+    defaults: { _controller: EspritTrocBundle:Reservation:indexuser }
+reservation_index:
+    path:     /reservationevent/{id}
+    defaults: { _controller: EspritTrocBundle:Reservation:index }
+reservation_new:
+    path:     /new/{id}
+    defaults: { _controller: EspritTrocBundle:Reservation:new }
+esprit_troc_homepage:
+    path:     /
+    defaults: { _controller: EspritTrocBundle:Default:index }
+event_front:
+    path:     /eventfrontt
+    defaults: { _controller: EspritTrocBundle:Event:indexfront }
+event_index:
+    path:     /allevent
+    defaults: { _controller: EspritTrocBundle:Event:index }
+event_show:
+    path:     /event/{id}
+    defaults: { _controller: EspritTrocBundle:Event:show }
+event_new:
+    path:     /add
+    defaults: { _controller: EspritTrocBundle:Event:new }
+event_edit:
+    path:     /edit/{id}
+    defaults: { _controller: EspritTrocBundle:Event:edit }
+event_delete:
+    path:     /delete/{id}
+    defaults: { _controller: EspritTrocBundle:Event:delete }

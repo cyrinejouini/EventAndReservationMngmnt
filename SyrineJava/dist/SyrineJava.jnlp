@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SyrineJava.jnlp">
+  <information>
+    <title>SyrineJava</title>
+    <vendor>amine</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SyrineJava.jar" size="169189" download="eager" />
+    <jar href="lib\Bulk_SMS_Library.jar" size="3292" download="eager" />
+    <jar href="lib\Enzo-0.3.6.jar" size="2504009" download="eager" />
+    <jar href="lib\GMapsFX-2.0.9.jar" size="166541" download="eager" />
+    <jar href="lib\commons-codec-1.4.jar" size="58160" download="eager" />
+    <jar href="lib\commons-net-3.1.jar" size="273370" download="eager" />
+    <jar href="lib\controlsfx-8.40.12.jar" size="996389" download="eager" />
+    <jar href="lib\controlsfx-samples-8.40.12.jar" size="665038" download="eager" />
+    <jar href="lib\derby.jar" size="3224708" download="eager" />
+    <jar href="lib\derbyclient.jar" size="590087" download="eager" />
+    <jar href="lib\fontawesomefx-8.9.jar" size="571068" download="eager" />
+    <jar href="lib\fontawesomefx-commons-8.15.jar" size="20957" download="eager" />
+    <jar href="lib\fontawesomefx-commons-9.1.2.jar" size="24064" download="eager" />
+    <jar href="lib\fontawesomefx-fontawesome-4.7.0-5.jar" size="136891" download="eager" />
+    <jar href="lib\fontawesomefx-fontawesome-4.7.0-9.1.2.jar" size="137226" download="eager" />
+    <jar href="lib\gson-2.8.1.jar" size="232620" download="eager" />
+    <jar href="lib\itextpdf-5.1.0.jar" size="1614453" download="eager" />
+    <jar href="lib\jBCrypt-0.4.jar" size="16960" download="eager" />
+    <jar href="lib\java-mail-1.4.4.jar" size="494975" download="eager" />
+    <jar href="lib\jfoenix-8.0.1.jar" size="2405715" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2390900" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+    <jar href="lib\restfb-2.0.0-rc.2.jar" size="493718" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="SyrineJava" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="syrinejava.SyrineJava"  name="SyrineJava" />
+  <update check="always"/>
+</jnlp>

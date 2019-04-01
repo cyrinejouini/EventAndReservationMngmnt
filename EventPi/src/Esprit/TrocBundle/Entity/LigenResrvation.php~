@@ -1,0 +1,65 @@
+<?php
+
+namespace Esprit\TrocBundle\Entity;
+
+/**
+ * LigenResrvation
+ */
+class LigenResrvation
+{
+    /**
+     * @var int
+     */
+    private $id;
+    /**
+     * @ORM\ManyToOne(targetEntity="Esprit\TrocBundle\Entity\Event")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $event;
+    /**
+     * @var int
+     */
+    private $quantite;
+
+    /**
+     * @return int
+     */
+    public function getQuantite()
+    {
+        return $this->quantite;
+    }
+
+    /**
+     * @param int $quantite
+     */
+    public function setQuantite($quantite)
+    {
+        $this->quantite = $quantite;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getEvent()
+    {
+        return $this->event;
+    }
+
+    /**
+     * @param mixed $event
+     */
+    public function setEvent($event)
+    {
+        $this->event = $event;
+    }
+
+    /**
+     * Get id
+     *
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+}
