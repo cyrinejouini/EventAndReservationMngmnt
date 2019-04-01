@@ -1,1 +1,1 @@
-# EventAndReservatonMngmnt
+# EventAndReservationMngmnt
