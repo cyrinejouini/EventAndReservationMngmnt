@@ -32,6 +32,7 @@ I have used API in the SyrineMobile Project and external bundles for authentific
 2. The FrontEnd part of the project really lacks design  because we were so focused on the backend part of the project that we forgot one of the main qualities about website which design with tools  (HTML and CSS) 
 3. The backOffice part of the symfony website is missing the partof promoting marchendise which the purpose of an E-commerce website 
 
-4.I also wanted to handle the coockies 
+4.I also wanted to handle the coockies part because it has as I believe a big part in increasing sales within E-commerce website but we never got the time to do so. 
+
  
 
