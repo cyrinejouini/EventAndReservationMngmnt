@@ -10,7 +10,7 @@ The purpose of this project is mainly academic. I've written all the code . The 
 ```bash
 php -v
 ```
-6.check on the [usual symfony reuirements] (https://symfony.com/doc/current/reference/requirements.html)
+6.check on the [usual symfony reuirements] (https://symfony.com/doc/current/reference/requirements.html/)
 7. I can help with the demos :D
 ##Usage 
 1. Copy the project EventPi and put in this path C:\wamp64\www
