@@ -26,4 +26,12 @@ $ symfony serve
 If you don't have the Symfony client installed, run php bin/console server:run. Alternatively, you can configure a [web server](https://symfony.com/doc/current/setup/web_server_configuration.html)  like Nginx or Apache to run the application.
 
 ## Contributing 
-I have used API in the SyrineMobile Project and external bundles for authentification such as [FOS user](https://symfony.com/doc/master/bundles/FOSUserBundle/index.html)   and [SwiftMailer](https://symfony.com/doc/current/reference/configuration/swiftmailer.html)  to notify the user and confirm the reservation for the event  
+I have used API in the SyrineMobile Project and external bundles for authentification such as [FOS user](https://symfony.com/doc/master/bundles/FOSUserBundle/index.html)   and [SwiftMailer](https://symfony.com/doc/current/reference/configuration/swiftmailer.html)  to notify the user and confirm the reservation for the event he participated in .
+## How would I improve the project?
+1. Because in the university we were obliged to work with the [FOS user](https://symfony.com/doc/master/bundles/FOSUserBundle/index.html) for authentification and we had to have the same database for the other applications (java and CodenameOne) we had a conflict. So I wouldn't use that bundle. I would do the authentification without an external Bundle 
+2. The FrontEnd part of the project really lacks design  because we were so focused on the backend part of the project that we forgot one of the main qualities about website which design with tools  (HTML and CSS) 
+3. The backOffice part of the symfony website is missing the partof promoting marchendise which the purpose of an E-commerce website 
+
+4.I also wanted to handle the coockies 
+ 
+
