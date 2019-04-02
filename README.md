@@ -10,7 +10,7 @@ The purpose of this project is mainly academic. I've written all the code . The 
 ```bash
 php -v
 ```
-6.check on the [usual symfony reuirements] (https://symfony.com/doc/current/reference/requirements.html/)
+6.check on the [usual symfony reuirements](https://symfony.com/doc/current/reference/requirements.html) 
 7. I can help with the demos :D
 ##Usage 
 1. Copy the project EventPi and put in this path C:\wamp64\www
@@ -23,7 +23,7 @@ $ symfony serve
 
 ```
 
-If you don't have the Symfony client installed, run php bin/console server:run. Alternatively, you can configure a [web server] (https://symfony.com/doc/current/setup/web_server_configuration.html) like Nginx or Apache to run the application.
+If you don't have the Symfony client installed, run php bin/console server:run. Alternatively, you can configure a [web server](https://symfony.com/doc/current/setup/web_server_configuration.html)  like Nginx or Apache to run the application.
 
 ##Contributing 
-I have used API in the SyrineMobile Project and external bundles for authentification such as [FOS user] (https://symfony.com/doc/master/bundles/FOSUserBundle/index.html)  and [SwiftMailer] (https://symfony.com/doc/current/reference/configuration/swiftmailer.html) to notify the user and confirm the reservation for the event  
+I have used API in the SyrineMobile Project and external bundles for authentification such as [FOS user](https://symfony.com/doc/master/bundles/FOSUserBundle/index.html)   and [SwiftMailer](https://symfony.com/doc/current/reference/configuration/swiftmailer.html)  to notify the user and confirm the reservation for the event  
